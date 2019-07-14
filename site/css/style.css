@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #21201f;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.add-user-form__component {
+    margin-bottom: 10px;
+}
+
+.add-user-form__component label {
+    display: inline-block;
+    width: 100px;
+}
+
+.add-user-form__component-error {
+    color: #cc0000;
+    font-size: 13px;
+}
+
+.addition-form input[type="submit"] {
+    display: block;
+    margin: 20px 0;
+    padding: 5px 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #1b1b31;
+    color: #fff;
+    cursor: pointer;
+}
+
+.addition-form input[type="submit"]:hover {
+    background-color: #0f0f1b;
+    transition: background-color 0.3s;
+}
+
+.users {
+    margin-bottom: 20px;
+}
+
+.users__table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #4b4948;
+}
+
+.users__table tbody tr:nth-child(even) {
+    background-color: #efefef;
+}
+
+.users__table th {
+    padding: 7px 10px;
+    background-color: #4b4948;
+    color: #fff;
+    text-align: left;
+}
+
+.users__table td {
+    padding: 8px 10px;
+    word-wrap: break-word;
+}
+
+.users__table td:nth-child(1) {
+    width: 30px;
+}
+
+.users__table td:nth-child(2),
+.users__table td:nth-child(3) {
+    width: 150px;
+}
+
+.users__table td:nth-child(4) {
+    width: 100px;
+}
+
+.users__table td:last-child {
+    width: 80px;
+}
+
+.deletion-form input[type="submit"] {
+    display: block;
+    width: 70px;
+    padding: 4px 10px;
+    background-color: #cc0000;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.deletion-form input[type="submit"]:hover {
+    background-color: #aa0000;
+    transition: background-color 0.3s;
+}
