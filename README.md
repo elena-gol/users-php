@@ -5,10 +5,11 @@
 2. Добавление нового пользователя.
 3. Скрипт для выгрузки в Google Sheets данных об изменениях (количество добавленных и удаленных за сутки пользователей). Для ежедневного выполнения скрипта, создать задачу в cron: 0 0 * * * php /path/to/logging.php
 
-## Demo: 
+### Demo: 
 http://lsmuow.tech:9010
 
-## GoogleSheets:
+### GoogleSheets:
 https://docs.google.com/spreadsheets/d/1VnG-a-i_zvM6wkWbaMNE_wFFhLyvidzMFFQ85LCQHCM/edit#gid=0
+
 
 Для наглядности работы скрипта настроена выгрузка каждые полчаса.
