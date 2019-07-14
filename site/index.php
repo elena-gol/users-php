@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <h1>Пользователи</h1>
-		<div class="add-user-form">
+	<div class="add-user-form">
             <h2>Добавить нового пользователя</h2>
             <form class="addition-form" method="post">
                 <div class="add-user-form__component" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
@@ -39,7 +39,7 @@
         </div>
 		
         <div class="users">
-			<h2>Список пользователей</h2>
+	    <h2>Список пользователей</h2>
             <?php $users = getUsersArray($connection); ?>
             <?php if(count($users) > 0): ?>
                 <table class="users__table">
